@@ -14,5 +14,6 @@ printf ("my text \n\r");
 //added this line 
 printf("add another line");
 
+printf("last change \n\r");
     return 1;
 }
