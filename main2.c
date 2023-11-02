@@ -1,35 +1,26 @@
 #include <stdio.h>
+#include "main2.h"
+
+
+
+
+
+
+System *ptrStruct=&mySystem;
+
+
 
 
 int main (void)
 {
 
 
+ptrStruct->subsystem1.data=3;
 
-printf("hello");
-printf ("the master branch is in the board yohooo\n\r");
+printf("the value of data is %d",ptrStruct->subsystem1.data);
 
-printf ("my text \n\r");
-
-//added this line 
-printf("add another line");
-
-printf("last change \n\r");
-
-
-
-
-
-
-//feature readme line 
-
-
-
-  
-  
-  
-  printf("this is the new change to use ");
-  //adding another line 
+ // Now call the printing function
+    printing();
 
     return 1;
 }
